@@ -1,0 +1,42 @@
+body{
+  background-image: url("lpb.png");
+}
+
+form {
+  position: absolute;
+  width: 300px;
+  left: 450px;
+  top: 250px;
+  vertical-align: center;
+}
+input {
+  margin-bottom:3px;
+  padding:10px;
+  width: 100%;
+  border:1px solid #CCC;
+  border-radius: 10px;
+}
+button {
+  padding:10px;
+}
+label {
+  cursor:pointer;
+}
+
+span{
+  color: orange;
+}
+
+
+#form-switch {
+  display:none;
+}
+#register-form {
+  display:none;
+}
+#form-switch:checked~#register-form {
+  display:block;
+}
+#form-switch:checked~#login-form {
+  display:none;
+}
