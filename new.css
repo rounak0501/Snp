@@ -1,0 +1,203 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+body{
+    height:1500px;
+}
+
+header{
+    background-color: rgba(0,0,0,.4);
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    width:100%;
+}
+
+.secondary{
+    background-color: deepskyblue;
+    box-shadow: 0px 0px 17px 1px;
+    transition: all 0.5s ease-in;
+}
+
+.log{
+    font-size: 20px;
+    color: white;
+    margin-left: -18px;
+    font-weight: 700;
+}
+
+ul{
+    list-style:none;
+}
+
+ul li{
+    display: inline-block;
+
+}
+
+header nav{
+    float:right;
+}
+
+
+.row{
+    margin-top:25px;
+}
+
+header nav ul li a{
+    padding-right: 30px;
+    font-weight: bold;
+    color: white;
+    transition: all 0.5s ease-in;
+}
+
+header nav ul li a:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.img1{
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(https://assets-us-01.kc-usercontent.com/fa776f1a-4d27-4a6b-ae1c-2ce928f9647d/54256835-7a4f-42fb-aa19-b23f385923af/Competition%20and%20consumer%20law_4-3.jpg);
+    image-align:center;
+    height: 700px;
+    width: 1288px;
+
+}
+
+.slider,.slider ul,.slider ul li {
+    height:750px;
+    weight:100%;
+    color:white;
+    text-align: Center;
+
+}
+
+.slider h2{
+    font-weight: bold;
+    margin-top: 250px;
+}
+
+.slider span{
+    color: orange;
+}
+
+.slider a{
+    padding: 10px 40px;
+    margin-right: 10px;
+
+}
+
+.slider a.btn-half{
+    background-color: deepskyblue;
+    color: white;
+}
+.slider a.btn-half:hover{
+    opacity:0.7;
+}
+
+
+.slider a.btn-full{
+
+    background-color: orange;
+    color: white;
+}
+.slider a.btn-full:hover{
+    opacity:0.7;
+}
+
+.img2{
+
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(https://thegoodheartedwoman.com/wp-content/uploads/2015/09/B-Hawaiian-Scenery-GHW-2.jpg);
+    background-size: 100% 100%;
+}
+
+.slider i{
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+.intro-area{
+
+    position: relative;
+    padding: 100px 0px;
+    text-align: center;
+}
+
+.sub-heading{
+    position: relative;
+    margin-bottom: 75px;
+}
+
+.sub-heading:before{
+    content: "";
+    position: absolute;
+    top: 100%;
+    margin-left: 20%;
+    width: 6%;
+    height: 1px;
+    background-color: deepskyblue;
+    z-index: 1;
+    transition: 0.3s ease;
+}
+
+.sub-heading:hover:before{
+    width: 24%;
+    margin-left: -12px;
+}
+
+.sub-heading:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -12%;
+    width: 24%;
+    height: 1px;
+    background-color: #elelel;
+}
+
+.sub-heading p{
+    color: #010101;
+    display: inline-block;
+    padding: 0px 0px 20px;
+    position: relative;
+    line-height: 24px;
+    letter-spacing: 0.025em;
+
+}
+
+.intro-block{
+
+    position: relative;
+    background: #f7f7f7;
+    margin: 50px 0px 0px;
+    padding: 30px 25px 50px;
+}
+
+.intro-block:hover, .intro-block.active{
+
+    background: #BAABE1;
+}
+
+.intro-block h3{
+    font-size: 20px;
+    color: deepskyblue;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.intro-block:hover h3{
+
+    color: #f6f6f6;
+}
+
+.text-muted{
+    margin-bottom: 30px;
+}
+
+
+
+
+
